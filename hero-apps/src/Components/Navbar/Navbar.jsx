@@ -31,8 +31,8 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className='flex items-center gap-x-3'>
-                        <img className='w-10' src={logoImg} alt="" />
-                        <Link className='text-[#632EE3] font-bold text-xl' to='/'>HERO.IO</Link>
+                        <img className='sm:w-10 w-5' src={logoImg} alt="" />
+                        <Link className='text-[#632EE3] font-bold sm:text-xl text-base' to='/'>HERO.IO</Link>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
@@ -42,7 +42,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
 
-                    <a onClick={openGithubProfile} to='/https://github.com/nazmul5675' className="btn bg-gradient-to-r from-[#632EE3]  to-[#9F62F2] text-white font-semibold"> <FaGithub /> Contribute</a>
+                    <a onClick={openGithubProfile} to='/https://github.com/nazmul5675' className="btn  bg-gradient-to-r from-[#632EE3]  to-[#9F62F2] text-white font-semibold"> <FaGithub /> Contribute</a>
                 </div>
             </div>
         </div>

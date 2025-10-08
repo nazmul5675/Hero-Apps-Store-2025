@@ -1,0 +1,274 @@
+[
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+        "title": "WhatsApp",
+        "purpose": "Messaging & calls",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 1,
+        "description": "WhatsApp is a free messaging and voice over IP (VoIP) service owned by Meta Platforms, Inc. It allows users to send text messages, voice messages, images, and videos, as well as make voice and video calls. WhatsApp uses the internet to send messages, making it a cost-effective alternative to traditional SMS services. The app also supports group chats, end-to-end encryption, and the sharing of documents and locations.",
+        "size": 200,
+        "reviews": 500000000,
+        "ratingAvg": 4.8,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 5000000
+            },
+            {
+                "name": "2 star",
+                "count": 2000000
+            },
+            {
+                "name": "3 star",
+                "count": 10000000
+            },
+            {
+                "name": "4 star",
+                "count": 100000000
+            },
+            {
+                "name": "5 star",
+                "count": 400000000
+            }
+        ]
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+        "title": "Facebook",
+        "purpose": "Social networking",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 2,
+        "description": "Facebook is a social networking service launched by Meta Platforms, Inc. It allows users to connect with friends and family, share photos and videos, and join groups of interest. Facebook also offers features like Marketplace for buying and selling items, Events for organizing gatherings, and News Feed for staying updated with friends' activities.",
+        "size": 250,
+        "reviews": 1000000000,
+        "ratingAvg": 4.3,
+        "downloads": "1B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 10000000
+            },
+            {
+                "name": "2 star",
+                "count": 5000000
+            },
+            {
+                "name": "3 star",
+                "count": 20000000
+            },
+            {
+                "name": "4 star",
+                "count": 300000000
+            },
+            {
+                "name": "5 star",
+                "count": 700000000
+            }
+        ]
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg",
+        "title": "Instagram",
+        "purpose": "Photo & video sharing",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 3,
+        "description": "Instagram is a photo and video-sharing social networking service owned by Meta Platforms, Inc. It allows users to share photos and videos, apply filters, and interact with others through likes, comments, and direct messages. Instagram also features Stories, Reels, and IGTV for longer-form content.",
+        "size": 150,
+        "reviews": 800000000,
+        "ratingAvg": 4.5,
+        "downloads": "80M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 8000000
+            },
+            {
+                "name": "2 star",
+                "count": 4000000
+            },
+            {
+                "name": "3 star",
+                "count": 16000000
+            },
+            {
+                "name": "4 star",
+                "count": 240000000
+            },
+            {
+                "name": "5 star",
+                "count": 560000000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/27Hx5CT4/tiktok-logo-tikok-icon-transparent-tikok-app-logo-free-png.webp",
+        "title": "TikTok",
+        "purpose": "Short videos",
+        "companyName": "ByteDance",
+        "id": 4,
+        "description": "TikTok is a social media platform for creating, sharing, and discovering short music videos. It allows users to create videos with a variety of filters, effects, and music. TikTok has become a global phenomenon, especially among younger audiences, for its viral challenges and trends.",
+        "size": 300,
+        "reviews": 1200000000,
+        "ratingAvg": 4.6,
+        "downloads": "1.2B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 12000000
+            },
+            {
+                "name": "2 star",
+                "count": 6000000
+            },
+            {
+                "name": "3 star",
+                "count": 24000000
+            },
+            {
+                "name": "4 star",
+                "count": 360000000
+            },
+            {
+                "name": "5 star",
+                "count": 840000000
+            }
+        ]
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png",
+        "title": "YouTube",
+        "purpose": "Video streaming",
+        "companyName": "Google LLC",
+        "id": 5,
+        "description": "YouTube is a video sharing platform owned by Google LLC. It allows users to upload, view, and share videos. YouTube hosts a wide variety of content, including music videos, tutorials, vlogs, and live streams. The platform also offers YouTube Premium for ad-free viewing and YouTube Music for music streaming.",
+        "size": 250,
+        "reviews": 1000000000,
+        "ratingAvg": 4.7,
+        "downloads": "1B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 10000000
+            },
+            {
+                "name": "2 star",
+                "count": 5000000
+            },
+            {
+                "name": "3 star",
+                "count": 20000000
+            },
+            {
+                "name": "4 star",
+                "count": 300000000
+            },
+            {
+                "name": "5 star",
+                "count": 700000000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/8492dyv6/67767f942c4928d932dc4f37-67767e2671f2ed8d606a3302-Icon.jpg",
+        "title": "Snapchat",
+        "purpose": "Ephemeral messaging",
+        "companyName": "Snap Inc.",
+        "id": 6,
+        "description": "Snapchat is a multimedia messaging app developed by Snap Inc. It allows users to send photos and videos that disappear after being viewed. Snapchat also features Stories, Discover for curated content, and various filters and lenses for enhancing photos and videos.",
+        "size": 150,
+        "reviews": 600000000,
+        "ratingAvg": 4.4,
+        "downloads": "60M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 6000000
+            },
+            {
+                "name": "2 star",
+                "count": 3000000
+            },
+            {
+                "name": "3 star",
+                "count": 12000000
+            },
+            {
+                "name": "4 star",
+                "count": 180000000
+            },
+            {
+                "name": "5 star",
+                "count": 420000000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/BHqGvbhr/download.png",
+        "companyName": "X Corp.",
+        "title": "X (Twitter)",
+        "purpose": "Microblogging",
+        "id": 7,
+        "description": "X, formerly known as Twitter, is a social media platform for real-time communication. Users can post and interact with messages known as 'tweets'. X supports multimedia content, hashtags, and trending topics, making it a hub for news, entertainment, and public discourse.",
+        "size": 100,
+        "reviews": 500000000,
+        "ratingAvg": 4.2,
+        "downloads": "500M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 5000000
+            },
+            {
+                "name": "2 star",
+                "count": 2000000
+            },
+            {
+                "name": "3 star",
+                "count": 10000000
+            },
+            {
+                "name": "4 star",
+                "count": 150000000
+            },
+            {
+                "name": "5 star",
+                "count": 340000000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/Q3Rx4j27/telegram-icon-vector-511451-46.jpg",
+        "title": "Telegram",
+        "purpose": "Secure messaging",
+        "companyName": "Telegram Messenger LLP",
+        "id": 8,
+        "description": "Telegram is a cloud-based instant messaging, video telephony, and VoIP service. It focuses on speed and security, offering end-to-end encrypted calls and messages. Telegram supports large group chats, channels for broadcasting, and a variety of bots for automation.",
+        "size": 150,
+        "reviews": 400000000,
+        "ratingAvg": 4.6,
+        "downloads": "400M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 4000000
+            },
+            {
+                "name": "2 star",
+                "count": 2000000
+            },
+            {
+                "name": "3 star",
+                "count": 8000000
+            },
+            {
+                "name": "4 star",
+                "count": 120000000
+            },
+            {
+                "name": "5 star",
+                "count": 280000000
+            }
+        ]
+    }
+]

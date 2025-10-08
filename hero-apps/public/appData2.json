@@ -1,0 +1,682 @@
+[
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+        "title": "WhatsApp",
+        "purpose": "Messaging & calls",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 1,
+        "description": "WhatsApp is a globally recognized messaging platform that seamlessly connects people from all corners of the world. Beyond simple text messaging, it allows users to send voice messages, high-resolution images, videos, documents, and even locations in real-time. Group chats support hundreds of participants, making it perfect for family, friends, and professional teams alike. End-to-end encryption ensures all communications are private and secure, while voice and video calls maintain high clarity across devices. The app also integrates features like status updates, QR code contacts, and WhatsApp Web for desktop use, providing a flexible experience for both personal and professional purposes. Its intuitive interface and lightweight performance ensure that users can stay connected efficiently, whether on high-speed networks or limited connections. WhatsApp has become more than a messaging app—it is a versatile communication ecosystem trusted by billions every day.",
+        "size": 200,
+        "reviews": "500M",
+        "ratingAvg": 4.8,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 5000000
+            },
+            {
+                "name": "2 star",
+                "count": 2000000
+            },
+            {
+                "name": "3 star",
+                "count": 10000000
+            },
+            {
+                "name": "4 star",
+                "count": 100000000
+            },
+            {
+                "name": "5 star",
+                "count": 400000000
+            }
+        ]
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+        "title": "Facebook",
+        "purpose": "Social networking",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 2,
+        "description": "Facebook is a leading social networking platform designed to bring people together across the globe. Users can share life moments through posts, photos, and videos, engage in discussions via comments and reactions, and stay informed through News Feed updates tailored to their interests. Facebook Groups allow communities to form around common passions, hobbies, or professional goals, while Pages enable brands, celebrities, and organizations to interact with their audiences directly. Marketplace provides a secure and convenient environment for buying and selling items, while Events lets users organize and RSVP to social gatherings seamlessly. With continuous innovations like live streaming, polls, story features, and integrated messaging through Messenger, Facebook provides a comprehensive digital ecosystem that blends social connection, entertainment, and commerce for billions of users worldwide.",
+        "size": 250,
+        "reviews": "110M",
+        "ratingAvg": 4.3,
+        "downloads": "1B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 10000000
+            },
+            {
+                "name": "2 star",
+                "count": 5000000
+            },
+            {
+                "name": "3 star",
+                "count": 20000000
+            },
+            {
+                "name": "4 star",
+                "count": 300000000
+            },
+            {
+                "name": "5 star",
+                "count": 700000000
+            }
+        ]
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg",
+        "title": "Instagram",
+        "purpose": "Photo & video sharing",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 3,
+        "description": "Instagram is a highly visual social media platform that empowers users to share their stories through photos and videos. From posting on the main feed to creating ephemeral Stories or engaging short-form content via Reels, Instagram offers a diverse suite of tools for personal expression and brand promotion. The platform includes filters, editing tools, and augmented reality effects to enhance content creatively, while features like direct messaging, comments, and likes foster engagement. Instagram also integrates shopping features, enabling users to explore products, make purchases directly, and follow their favorite brands. Its algorithm-driven Explore page ensures personalized content discovery, helping users connect with new creators, trends, and communities. With its blend of aesthetics, interactivity, and discoverability, Instagram remains a go-to platform for influencer's, businesses, and casual users alike.",
+        "size": 150,
+        "reviews": "40M",
+        "ratingAvg": 4.5,
+        "downloads": "80M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 8000000
+            },
+            {
+                "name": "2 star",
+                "count": 4000000
+            },
+            {
+                "name": "3 star",
+                "count": 16000000
+            },
+            {
+                "name": "4 star",
+                "count": 240000000
+            },
+            {
+                "name": "5 star",
+                "count": 560000000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/27Hx5CT4/tiktok-logo-tikok-icon-transparent-tikok-app-logo-free-png.webp",
+        "title": "TikTok",
+        "purpose": "Short videos",
+        "companyName": "ByteDance",
+        "id": 4,
+        "description": "TikTok is an innovative short-video platform that combines entertainment, creativity, and social interaction in a highly engaging experience. Users can create videos ranging from 15 seconds to several minutes, using a rich library of music, sound effects, and visual filters. Features such as duets, stitches, and collaborative challenges encourage interaction, creativity, and viral content creation. TikTok’s recommendation algorithm analyzes user behavior to provide a personalized feed that keeps viewers captivated, while the platform also supports live streaming and community engagement. Beyond entertainment, TikTok has become a hub for learning, tutorials, product reviews, and brand marketing. With its global reach, TikTok allows users to express themselves, connect with audiences worldwide, and discover trends in an engaging, interactive environment.",
+        "size": 300,
+        "reviews": "120M",
+        "ratingAvg": 4.6,
+        "downloads": "1.2B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 12000000
+            },
+            {
+                "name": "2 star",
+                "count": 6000000
+            },
+            {
+                "name": "3 star",
+                "count": 24000000
+            },
+            {
+                "name": "4 star",
+                "count": 360000000
+            },
+            {
+                "name": "5 star",
+                "count": 840000000
+            }
+        ]
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png",
+        "title": "YouTube",
+        "purpose": "Video streaming",
+        "companyName": "Google LLC",
+        "id": 5,
+        "description": "YouTube is the world’s leading video-sharing platform, offering users access to a vast array of content ranging from tutorials and music videos to live streams and vlogs. Users can upload, watch, and engage with videos, create playlists, and subscribe to channels to stay updated with favorite creators. YouTube provides detailed analytics to creators, helping them understand audience engagement, demographics, and content performance. Premium subscriptions offer ad-free viewing, offline downloads, and access to YouTube Music. With features like community posts, live chats, premieres, and stories, YouTube has evolved into a versatile platform for entertainment, education, and communication. Whether you’re a content creator aiming to grow your audience or a viewer seeking informative or entertaining content, YouTube provides a complete ecosystem for digital video experiences.",
+        "size": 250,
+        "reviews": "100M",
+        "ratingAvg": 4.7,
+        "downloads": "1B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 10000000
+            },
+            {
+                "name": "2 star",
+                "count": 5000000
+            },
+            {
+                "name": "3 star",
+                "count": 20000000
+            },
+            {
+                "name": "4 star",
+                "count": 300000000
+            },
+            {
+                "name": "5 star",
+                "count": 700000000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/8492dyv6/67767f942c4928d932dc4f37-67767e2671f2ed8d606a3302-Icon.jpg",
+        "title": "Snapchat",
+        "purpose": "Ephemeral messaging",
+        "companyName": "Snap Inc.",
+        "id": 6,
+        "description": "Snapchat is a multimedia messaging app developed by Snap Inc. It allows users to send photos and videos that disappear after being viewed. Snapchat also features Stories, Discover for curated content, and various filters and lenses for enhancing photos and videos.Snapchat is a creative messaging platform that allows users to share photos, videos, and text that disappear after being viewed. Its core feature, Stories, allows users to chronicle their day-to-day life, which disappears after 24 hours. Snapchat also offers interactive AR lenses, filters, and Bitmoji integration to make communication fun and engaging. Discover provides curated content from publishers, creators, and influencers, while Snap Map allows sharing locations and exploring friends’ activities around the world. With ephemeral messaging, streaks, and gamified features, Snapchat encourages regular engagement while maintaining privacy. It has become a favorite platform for younger audiences seeking interactive, real-time social experiences combined with creative expression.",
+        "size": 150,
+        "reviews": "50M",
+        "ratingAvg": 4.4,
+        "downloads": "60M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 6000000
+            },
+            {
+                "name": "2 star",
+                "count": 3000000
+            },
+            {
+                "name": "3 star",
+                "count": 12000000
+            },
+            {
+                "name": "4 star",
+                "count": 180000000
+            },
+            {
+                "name": "5 star",
+                "count": 420000000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/BHqGvbhr/download.png",
+        "companyName": "X Corp.",
+        "title": "X (Twitter)",
+        "purpose": "Microblogging",
+        "id": 7,
+        "description": "X, formerly known as Twitter, is a social media platform for real-time communication. X, formerly known as Twitter, is a real-time social media platform that empowers users to share thoughts, news, and multimedia content quickly and efficiently. Users post tweets, which can contain text, images, videos, polls, or links, and engage with others through retweets, likes, replies, and threads. Hashtags and trending topics enable content discovery and participation in global conversations. X also offers Spaces for live audio discussions and Communities to connect users around shared interests. Widely used by individuals, journalists, brands, and public figures, X is both a news source and a platform for opinion-sharing, providing immediate access to global trends and conversations in an interactive format.",
+        "size": 100,
+        "reviews": "250M",
+        "ratingAvg": 4.2,
+        "downloads": "500M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 5000000
+            },
+            {
+                "name": "2 star",
+                "count": 2000000
+            },
+            {
+                "name": "3 star",
+                "count": 10000000
+            },
+            {
+                "name": "4 star",
+                "count": 150000000
+            },
+            {
+                "name": "5 star",
+                "count": 340000000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/Q3Rx4j27/telegram-icon-vector-511451-46.jpg",
+        "title": "Telegram",
+        "purpose": "Secure messaging",
+        "companyName": "Telegram Messenger LLP",
+        "id": 8,
+        "description": "Telegram is a cloud-based messaging app designed for speed, security, and flexibility. Users can send text messages, photos, videos, and files of unlimited size, create large group chats, and broadcast messages via channels. Telegram emphasizes privacy with end-to-end encryption for secret chats and advanced security features. Bots, custom themes, and automation tools allow users to enhance productivity and interaction. Telegram’s interface is lightweight, fast, and supports multiple devices simultaneously. With its focus on privacy, extensive features, and community engagement, Telegram has become a preferred messaging platform for personal communication, professional groups, and large communities alike.",
+        "size": 150,
+        "reviews": "400M",
+        "ratingAvg": 4.6,
+        "downloads": "400M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 4000000
+            },
+            {
+                "name": "2 star",
+                "count": 2000000
+            },
+            {
+                "name": "3 star",
+                "count": 8000000
+            },
+            {
+                "name": "4 star",
+                "count": 120000000
+            },
+            {
+                "name": "5 star",
+                "count": 280000000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/qY3LH1Kb/download.png",
+        "title": "Spotify",
+        "purpose": "Music streaming",
+        "companyName": "Spotify Ltd.",
+        "id": 9,
+        "description": "Spotify is a leading audio streaming platform that offers millions of songs, podcasts, and playlists for personalized listening. Users can create custom playlists, discover new music through curated recommendations, and follow favorite artists to receive updates. Spotify also provides offline listening, collaborative playlists, and integration with smart devices. Its algorithmic recommendations help users explore genres, discover emerging artists, and enjoy high-quality audio experiences across platforms. Spotify is ideal for music lovers, podcast enthusiasts, and anyone looking to enjoy a rich, personalized audio experience.",
+        "size": 120,
+        "reviews": "200M",
+        "ratingAvg": 4.7,
+        "downloads": "500M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 2000000
+            },
+            {
+                "name": "2 star",
+                "count": 1000000
+            },
+            {
+                "name": "3 star",
+                "count": 5000000
+            },
+            {
+                "name": "4 star",
+                "count": 70000000
+            },
+            {
+                "name": "5 star",
+                "count": 180000000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/jP1Vr06H/download.png",
+        "title": "Notion",
+        "purpose": "Productivity & notes",
+        "companyName": "Notion Labs, Inc.",
+        "id": 10,
+        "description": "Notion is a powerful productivity tool that combines note-taking, task management, databases, and team collaboration into a single platform. Users can create pages with rich content including text, images, tables, checklists, and embedded media. Notion's flexible workspace allows for customizable workflows, project tracking, and knowledge management. Teams can collaborate in real-time, assign tasks, set reminders, and track progress. With a combination of simplicity and depth, Notion is ideal for students, professionals, and creative individuals looking to organize personal projects or complex team workflows efficiently.",
+        "size": 180,
+        "reviews": "15M",
+        "ratingAvg": 4.6,
+        "downloads": "50M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 500000
+            },
+            {
+                "name": "2 star",
+                "count": 200000
+            },
+            {
+                "name": "3 star",
+                "count": 1000000
+            },
+            {
+                "name": "4 star",
+                "count": 5000000
+            },
+            {
+                "name": "5 star",
+                "count": 9500000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/4n5ftgwM/download.png",
+        "title": "Zoom",
+        "purpose": "Video conferencing",
+        "companyName": "Zoom Video Communications",
+        "id": 11,
+        "description": "Zoom is a leading video conferencing and communication platform that allows users to host and join virtual meetings, webinars, and conference calls. It provides HD video and audio, screen sharing, breakout rooms, chat, and recording features. Zoom is used by businesses, educators, and individuals to connect remotely, collaborate on projects, conduct online classes, and host virtual events. Its intuitive interface, cross-platform compatibility, and reliable performance have made it essential for remote work and global communication in both professional and personal contexts.",
+        "size": 200,
+        "reviews": "50M",
+        "ratingAvg": 4.5,
+        "downloads": "300M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1000000
+            },
+            {
+                "name": "2 star",
+                "count": 500000
+            },
+            {
+                "name": "3 star",
+                "count": 2000000
+            },
+            {
+                "name": "4 star",
+                "count": 15000000
+            },
+            {
+                "name": "5 star",
+                "count": 32000000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/6cXDLc41/download.png",
+        "title": "Google Drive",
+        "purpose": "Cloud storage",
+        "companyName": "Google LLC",
+        "id": 12,
+        "description": "Google Drive is a cloud storage service that enables users to store files securely online and access them from any device. It supports documents, spreadsheets, presentations, images, videos, and more. Drive integrates seamlessly with Google Workspace apps like Docs, Sheets, and Slides, enabling real-time collaboration and sharing. Advanced search capabilities, offline access, version history, and powerful organizational tools make Google Drive a vital tool for individuals and teams seeking to manage their digital content efficiently and securely.",
+        "size": 150,
+        "reviews": "100M",
+        "ratingAvg": 4.7,
+        "downloads": "1B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 2000000
+            },
+            {
+                "name": "2 star",
+                "count": 1000000
+            },
+            {
+                "name": "3 star",
+                "count": 5000000
+            },
+            {
+                "name": "4 star",
+                "count": 20000000
+            },
+            {
+                "name": "5 star",
+                "count": 90000000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/8424mQjD/download.jpg",
+        "title": "Adobe Photoshop",
+        "purpose": "Photo editing",
+        "companyName": "Adobe Inc.",
+        "id": 13,
+        "description": "Adobe Photoshop is the industry-standard software for professional image editing and digital art creation. It allows users to manipulate photos, create complex graphics, and design for both print and digital media. Key features include layers, masks, advanced selection tools, color correction, retouching, filters, and 3D design capabilities. Photoshop integrates with other Adobe Creative Cloud apps, providing a complete suite for designers, photographers, and artists. Its versatility and depth make it an essential tool for creative professionals looking to bring their vision to life with precision and creativity.",
+        "size": 500,
+        "reviews": "10M",
+        "ratingAvg": 4.8,
+        "downloads": "50M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 200000
+            },
+            {
+                "name": "2 star",
+                "count": 100000
+            },
+            {
+                "name": "3 star",
+                "count": 500000
+            },
+            {
+                "name": "4 star",
+                "count": 2000000
+            },
+            {
+                "name": "5 star",
+                "count": 7500000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/n8f773zF/download.jpg",
+        "title": "Clash of Clans",
+        "purpose": "Strategy game",
+        "companyName": "Supercell",
+        "id": 14,
+        "description": "Clash of Clans is a popular mobile strategy game where players build and upgrade their villages, train troops, and attack other players to earn resources. The game combines tactical planning with real-time multiplayer battles, clan wars, and cooperative gameplay. Players can join clans, donate troops, and participate in seasonal events and competitions. With its engaging graphics, balanced gameplay mechanics, and constant updates, Clash of Clans remains a favorite for players seeking strategy, teamwork, and competition in a mobile gaming environment.",
+        "size": 300,
+        "reviews": "40M",
+        "ratingAvg": 4.6,
+        "downloads": "500M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 800000
+            },
+            {
+                "name": "2 star",
+                "count": 300000
+            },
+            {
+                "name": "3 star",
+                "count": 2000000
+            },
+            {
+                "name": "4 star",
+                "count": 10000000
+            },
+            {
+                "name": "5 star",
+                "count": 29000000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/Rpdh3qjh/download.png",
+        "title": "PUBG Mobile",
+        "purpose": "Battle royale game",
+        "companyName": "PUBG Corporation",
+        "id": 15,
+        "description": "PUBG Mobile is an online multiplayer battle royale game that drops players onto a massive map where they must scavenge for weapons, gear, and resources to be the last one standing. Featuring realistic graphics, diverse maps, dynamic weather, and intense combat mechanics, PUBG Mobile offers both solo and team-based gameplay. The game encourages strategy, quick decision-making, and cooperative tactics. Regular updates introduce new game modes, events, and skins, keeping the experience fresh for players. PUBG Mobile has become one of the most popular and competitive mobile games worldwide.",
+        "size": 700,
+        "reviews": "60M",
+        "ratingAvg": 4.5,
+        "downloads": "800M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1500000
+            },
+            {
+                "name": "2 star",
+                "count": 500000
+            },
+            {
+                "name": "3 star",
+                "count": 5000000
+            },
+            {
+                "name": "4 star",
+                "count": 20000000
+            },
+            {
+                "name": "5 star",
+                "count": 48000000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/m5pdfTLB/download.png",
+        "title": "Canva",
+        "purpose": "Graphic design",
+        "companyName": "Canva Pty Ltd",
+        "id": 16,
+        "description": "Canva is an intuitive graphic design platform that allows users to create visually appealing content such as social media graphics, presentations, posters, documents, and videos. With thousands of templates, drag-and-drop editing, stock photos, fonts, and illustrations, Canva empowers individuals and businesses to produce professional-quality designs without advanced technical skills. Real-time collaboration, brand kits, and publishing tools make Canva a versatile tool for teams, marketers, educators, and content creators.",
+        "size": 150,
+        "reviews": "25M",
+        "ratingAvg": 4.7,
+        "downloads": "100M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 300000
+            },
+            {
+                "name": "2 star",
+                "count": 100000
+            },
+            {
+                "name": "3 star",
+                "count": 800000
+            },
+            {
+                "name": "4 star",
+                "count": 5000000
+            },
+            {
+                "name": "5 star",
+                "count": 19000000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/PvnvFTVD/download.png",
+        "title": "Evernote",
+        "purpose": "Note-taking & organization",
+        "companyName": "Evernote Corporation",
+        "id": 17,
+        "description": "Evernote is a cross-platform note-taking application designed to help users organize ideas, tasks, and projects efficiently. Users can create text notes, attach files, capture images, record audio, and use checklists. Evernote offers notebooks, tags, and powerful search capabilities for easy organization. Integration with email, calendar, and productivity apps allows seamless workflow management. Its intuitive interface, combined with synchronization across devices, makes Evernote an essential tool for students, professionals, and anyone seeking organized and efficient personal or professional life management.",
+        "size": 120,
+        "reviews": "20M",
+        "ratingAvg": 4.5,
+        "downloads": "80M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 200000
+            },
+            {
+                "name": "2 star",
+                "count": 100000
+            },
+            {
+                "name": "3 star",
+                "count": 600000
+            },
+            {
+                "name": "4 star",
+                "count": 4000000
+            },
+            {
+                "name": "5 star",
+                "count": 15000000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/5Xh1TmP2/download.png",
+        "title": "Google Maps",
+        "purpose": "Navigation & maps",
+        "companyName": "Google LLC",
+        "id": 18,
+        "description": "Google Maps is a comprehensive navigation and mapping service that provides real-time GPS directions, traffic updates, and route planning for drivers, cyclists, and pedestrians. Users can explore places of interest, find businesses, view street-level imagery, and read reviews. Features like offline maps, live traffic, transit schedules, and integration with rideshare services make Google Maps indispensable for daily navigation and travel planning. Its accuracy, reliability, and rich dataset have made it a go-to app for exploring and commuting around the world.",
+        "size": 250,
+        "reviews": "120M",
+        "ratingAvg": 4.8,
+        "downloads": "1B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 500000
+            },
+            {
+                "name": "2 star",
+                "count": 200000
+            },
+            {
+                "name": "3 star",
+                "count": 1500000
+            },
+            {
+                "name": "4 star",
+                "count": 10000000
+            },
+            {
+                "name": "5 star",
+                "count": 85000000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/NnHbhTnG/download.png",
+        "title": "Among Us",
+        "purpose": "Multiplayer game",
+        "companyName": "Innersloth",
+        "id": 19,
+        "description": "Among Us is a multiplayer social deduction game where players work together to complete tasks on a spaceship while trying to identify impostors among the crew. Players communicate, strategize, and use deduction skills to survive and succeed. The game offers cross-platform multiplayer, customizations, and frequent updates with new maps, tasks, and gameplay features. Among Us has become a popular party and streaming game due to its fun, social, and suspenseful mechanics.",
+        "size": 100,
+        "reviews": "50M",
+        "ratingAvg": 4.6,
+        "downloads": "200M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 500000
+            },
+            {
+                "name": "2 star",
+                "count": 200000
+            },
+            {
+                "name": "3 star",
+                "count": 1000000
+            },
+            {
+                "name": "4 star",
+                "count": 6000000
+            },
+            {
+                "name": "5 star",
+                "count": 42000000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/4hYWLp3/download.jpg",
+        "title": "Adobe Acrobat Reader",
+        "purpose": "PDF reader & editor",
+        "companyName": "Adobe Inc.",
+        "id": 20,
+        "description": "Adobe Acrobat Reader is a versatile PDF tool that allows users to view, annotate, sign, and manage PDF documents. It supports highlighting, commenting, form filling, and secure sharing. Integration with Adobe Document Cloud enables access across devices. Acrobat Reader is essential for students, professionals, and businesses that work extensively with documents, providing reliable tools for productivity and document management.",
+        "size": 180,
+        "reviews": "25M",
+        "ratingAvg": 4.7,
+        "downloads": "150M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 200000
+            },
+            {
+                "name": "2 star",
+                "count": 100000
+            },
+            {
+                "name": "3 star",
+                "count": 500000
+            },
+            {
+                "name": "4 star",
+                "count": 3000000
+            },
+            {
+                "name": "5 star",
+                "count": 19000000
+            }
+        ]
+    }
+]

@@ -1,15 +1,23 @@
-import React from 'react';
-import { useLoaderData, useParams } from 'react-router';
+
+import { useLoaderData, useOutletContext, useParams } from 'react-router';
 import downloadsIcon from '../../assets/icon-downloads.png';
 import starIcon from '../../assets/icon-ratings.png';
 import reviewIcon from '../../assets/icon-review.png';
-import { BarChart } from 'recharts';
+
 import BarChartss from '../../Components/BarChartss/BarChartss';
 
 
 
 
+
 const AppDetailsPage = () => {
+
+    const { handleInstallBtn } = useOutletContext();
+    const { btn } = useOutletContext();
+
+
+
+
     const appData = useLoaderData();
     const { id } = useParams();
     const dataId = parseInt(id);
@@ -26,7 +34,7 @@ const AppDetailsPage = () => {
         reviews,
         size,
         title } = singleApp
-    console.log(ratings);
+
     return (
         <div className='bg-slate-100 py-5'>
             <div className='container mx-auto '>
@@ -56,8 +64,8 @@ const AppDetailsPage = () => {
                             </div>
                         </div>
 
-                        <button className='btn bg-green-600 text-white'>Install Now
-                            ( {size} )</button>
+                        <button onClick={() => handleInstallBtn(singleApp)} className='btn bg-green-600 text-white'>{btn}
+                            {btn === 'Install Now' && `(${size})`} </button>
                         <div className='border border-t-1 border-black/10 my-2'></div>
                     </div>
                 </div>

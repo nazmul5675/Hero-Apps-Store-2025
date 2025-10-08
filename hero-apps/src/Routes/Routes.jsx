@@ -18,6 +18,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/apps',
+                loader: () => fetch('/appData2.json'),
                 element: <Apps></Apps>
             },
             {
@@ -26,7 +27,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/appDetails/:id',
-                loader: () => fetch('/appData.json'),
+                loader: () => fetch('/appData2.json'),
                 element: <AppDetailsPage></AppDetailsPage>
             },
             {

@@ -5,6 +5,7 @@ import starIcon from '../../assets/icon-ratings.png';
 import reviewIcon from '../../assets/icon-review.png';
 
 import BarChartss from '../../Components/BarChartss/BarChartss';
+import { useState } from 'react';
 
 
 
@@ -13,8 +14,8 @@ import BarChartss from '../../Components/BarChartss/BarChartss';
 const AppDetailsPage = () => {
 
     const { handleInstallBtn } = useOutletContext();
-    const { btn } = useOutletContext();
 
+    const [isInstalled, setIsInstalled] = useState(false)
 
 
 
@@ -64,8 +65,13 @@ const AppDetailsPage = () => {
                             </div>
                         </div>
 
-                        <button onClick={() => handleInstallBtn(singleApp)} className='btn bg-green-600 text-white'>{btn}
-                            {btn === 'Install Now' && `(${size})`} </button>
+                        <button onClick={() => {
+                            handleInstallBtn(singleApp);
+                            setIsInstalled(true);
+                        }
+                        } className='btn bg-green-600 text-white'>{isInstalled ? "Installed" : "Install Now"}
+                            {isInstalled ? "" : ` (${size})`}
+                        </button>
                         <div className='border border-t-1 border-black/10 my-2'></div>
                     </div>
                 </div>
@@ -82,7 +88,7 @@ const AppDetailsPage = () => {
                     <p className='text-base text-[#627382]'>{description}</p>
                 </div>
             </div>
-        </div>
+        </div >
 
     );
 };

@@ -2,7 +2,7 @@ import React from 'react';
 import { BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const BarChartss = ({ ratings }) => {
-    console.log(ratings);
+    // console.log(ratings);
     return (
         <div className='w-full h-96 bg-slate-200 p-10'>
             <ResponsiveContainer width="100%" height="100%">

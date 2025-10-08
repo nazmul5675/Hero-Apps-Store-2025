@@ -1,13 +1,18 @@
+
 import { FaDownload } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa6";
-const InstalledCard = ({ card }) => {
+
+const InstalledCard = ({ card, handleUninstallBtn }) => {
+
+
     const {
         downloads,
         image,
         purpose,
         ratingAvg,
         size,
-        title } = card;
+        title, id } = card;
+
     return (
         <div className='bg-gray-100 p-3 m-2 rounded-xl'>
             <div className='flex justify-between items-center'>
@@ -23,11 +28,12 @@ const InstalledCard = ({ card }) => {
                     </div>
                 </div>
                 <div>
-                    <button className='btn text-red-500 bg-red-100'>delete</button>
+                    <button onClick={() => handleUninstallBtn(id)} className='btn text-white bg-green-500'>Uninstall</button>
                 </div>
             </div>
         </div>
-    );
+    )
+
 };
 
 export default InstalledCard;

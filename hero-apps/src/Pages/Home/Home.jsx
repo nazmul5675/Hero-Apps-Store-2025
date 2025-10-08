@@ -5,7 +5,6 @@ import { FaDownload } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
 const Home = () => {
     const appData = useLoaderData();
-    console.log(appData);
     return (
         <div >
             <Banner></Banner>

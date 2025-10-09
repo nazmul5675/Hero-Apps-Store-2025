@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import { useLoaderData } from 'react-router';
 import App from '../../Components/App/App';
-
+import AppNotFound from '../../Components/AppNotFound/AppNotFound';
+import spinLogo from '../../assets/logo.png'
 const Apps = () => {
+    const [loader, setLoader] = useState(false)
     const appData = useLoaderData();
     console.log(appData);
     const [searchData, setSearchData] = useState(``);
     const filterData = appData.filter(app => app.title.toLowerCase().includes(searchData.toLowerCase()))
-    return (
+    return (filterData === '' || filterData.length === 0 ? <AppNotFound></AppNotFound> :
         <div className='container mx-auto py-10'>
             <div className='  justify-center items-center '>
                 <div className='text-center mb-2'>
@@ -32,15 +34,26 @@ const Apps = () => {
                             </svg>
                             <input type="search" required placeholder="Search"
                                 value={searchData}
-                                onChange={e => setSearchData(e.target.value)} />
+                                onChange={e => {
+                                    setSearchData(e.target.value);
+                                    setLoader(true);
+                                    setTimeout(() => {
+                                        setLoader(false);
+                                    }, 300)
+                                }} />
                         </label>
                     </div>
                 </div>
             </div>
 
             <div className='grid sm:grid-cols-2 md:grid-cols-4 grid-cols-1 gap-10 my-10'>
-                {
-                    filterData.map(app => <App key={app.id} app={app}></App>)
+                {loader === true ? <div className="flex justify-center items-center gap-2 text-center">
+                    <img src={spinLogo} alt="loading" className="w-16 h-16 animate-spin" />
+                    <span className="text-gray-700 font-medium">Loading...</span>
+                </div> : filterData.map(app => <App key={app.id} app={app}></App>)
+
+
+
                 }
             </div>
         </div>

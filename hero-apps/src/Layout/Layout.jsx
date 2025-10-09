@@ -4,9 +4,10 @@ import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';
 import { Bounce, ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { addInstalledApp } from '../Utils/LocalDB';
 
 const Layout = () => {
-    const [installCard, setInstallCard] = useState([]);
+    const [installCard, setInstallCard] = useState(() => addInstalledApp());
 
     const notify = (toaster) => toast(toaster);
 

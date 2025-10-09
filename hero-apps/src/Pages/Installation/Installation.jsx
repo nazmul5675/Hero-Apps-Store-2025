@@ -2,6 +2,7 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import { useOutletContext } from "react-router";
 import InstalledCard from "../../Components/InstalledCard/InstalledCard";
 import { useState } from "react";
+import { unInstallAppList } from "../../Utils/LocalDB";
 
 
 const Installation = () => {
@@ -10,6 +11,7 @@ const Installation = () => {
     // console.log(installCard);
 
     const handleUninstallBtn = (id) => {
+        unInstallAppList(id)
         setInstallCard(prev => prev.filter(app => app.id !== id));
         notify('App removed from your list ❌')
     }

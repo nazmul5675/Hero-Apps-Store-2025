@@ -1,15 +1,10 @@
-
 import { useLoaderData, useOutletContext, useParams } from 'react-router';
 import downloadsIcon from '../../assets/icon-downloads.png';
 import starIcon from '../../assets/icon-ratings.png';
 import reviewIcon from '../../assets/icon-review.png';
-
 import BarChartss from '../../Components/BarChartss/BarChartss';
-import { useState } from 'react';
-
-
-
-
+import { useEffect, useState } from 'react';
+import { addInstalledApp, saveInstalledApp } from '../../Utils/LocalDB';
 
 const AppDetailsPage = () => {
 
@@ -34,7 +29,14 @@ const AppDetailsPage = () => {
         ratings,
         reviews,
         size,
-        title } = singleApp
+        title } = singleApp;
+
+
+    useEffect(() => {
+        const installedApps = addInstalledApp();
+        const installed = installedApps.some(app => app.id === dataId)
+        setIsInstalled(installed)
+    }, [dataId])
 
     return (
         <div className='bg-slate-100 py-5'>
@@ -66,10 +68,15 @@ const AppDetailsPage = () => {
                         </div>
 
                         <button onClick={() => {
-                            handleInstallBtn(singleApp);
-                            setIsInstalled(true);
+                            if (!isInstalled) {
+                                handleInstallBtn(singleApp);
+                                setIsInstalled(true);
+                                saveInstalledApp(singleApp);
+                            }
                         }
-                        } className='btn bg-green-600 text-white'>{isInstalled ? "Installed" : "Install Now"}
+                        } className='btn bg-green-600 text-white'
+                            disabled={isInstalled}
+                        >{isInstalled ? "Installed" : "Install Now"}
                             {isInstalled ? "" : ` (${size})`}
                         </button>
                         <div className='border border-t-1 border-black/10 my-2'></div>

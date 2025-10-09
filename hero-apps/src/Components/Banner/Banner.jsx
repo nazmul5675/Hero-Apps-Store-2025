@@ -27,18 +27,18 @@ const Banner = () => {
                 <div className='flex sm:flex-row flex-col justify-center items-center gap-x-30'>
                     <div className='flex flex-col justify-center items-center gap-y-5'>
                         <p className='font-normal text-base '>Total Downloads</p>
-                        <h1 className='font-extrabold text-6xl '>29.6M</h1>
-                        <p className='font-normal text-base '>21% more than last month</p>
+                        <h1 className='font-extrabold sm:text-3xl md:text-6xl text-6xl '>29.6M</h1>
+                        <p className='font-normal text-base text-center'>21% more than last month</p>
                     </div>
                     <div className='flex flex-col justify-center items-center gap-y-5'>
                         <p className='font-normal text-base '>Total Reviews</p>
-                        <h1 className='font-extrabold text-6xl '>906K</h1>
-                        <p className='font-normal text-base '>46% more than last month</p>
+                        <h1 className='font-extrabold sm:text-3xl md:text-6xl text-6xl '>906K</h1>
+                        <p className='font-normal text-base text-center'>46% more than last month</p>
                     </div>
                     <div className='flex flex-col justify-center items-center gap-y-5'>
                         <p className='font-normal text-base '>Active Apps</p>
-                        <h1 className='font-extrabold text-6xl '>132+</h1>
-                        <p className='font-normal text-base '>31 more will Launch</p>
+                        <h1 className='font-extrabold sm:text-3xl md:text-6xl text-6xl '>132+</h1>
+                        <p className='font-normal text-base text-center'>31 more will Launch</p>
                     </div>
                 </div>
             </div>
